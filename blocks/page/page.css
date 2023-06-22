@@ -1,5 +1,19 @@
-.page {
-    min-width: 1024px;
+@font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    src:url(/fonts/Inter-Regular.otf);
+  }
+
+  @font-face {
+    font-family: "Inter-bold";
+    font-style: normal;
+    font-weight: 900;
+    src:url(/fonts/Inter-Black.otf);
+  }
+
+  .page {
+    max-width: 1024px;
     margin: 0 auto;
     background-color: #2A2C2F;
     display: flex;
