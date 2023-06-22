@@ -11,6 +11,12 @@
     font-weight: 900;
     src:url(/fonts/Inter-Black.otf);
   }
+  @font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    src:url(/fonts/Inter-Bold.otf);
+  }
 
   .page {
     max-width: 1024px;
