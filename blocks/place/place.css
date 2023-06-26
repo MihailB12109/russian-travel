@@ -1,4 +1,4 @@
 .place{
     display: grid;
-    
+    justify-items: stretch;
 }
