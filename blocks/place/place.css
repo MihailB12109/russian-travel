@@ -1,4 +1,12 @@
 .place{
     display: grid;
-    justify-items: stretch;
+    grid-template-columns: repeat(2, min-content);
+    grid-template-rows: repeat(2, min-content);
+    grid-template-areas:
+    "title web"
+    "image paragraph";
+    gap:48px 40px;
+}
+.place:not(:last-child){
+    margin-bottom:80px;
 }
