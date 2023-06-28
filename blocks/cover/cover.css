@@ -1,8 +1,8 @@
 .cover{
+    margin-top:92px;
     display:grid;
-    justify-content: space-around;
     justify-items: center;
+    text-decoration: none;
     grid-template-columns:repeat(3, 1fr);
-    grid-template-rows: repeat(3,1fr);
-
+    grid-template-rows: repeat(3, 33%);
 }
