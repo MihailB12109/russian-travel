@@ -1,8 +1,5 @@
-.cover{
-    margin-top:92px;
-    display:grid;
-    justify-items: center;
-    text-decoration: none;
-    grid-template-columns:repeat(3, 1fr);
-    grid-template-rows: repeat(3, 33%);
+.cover {
+    width: 1184px;
+    height: 740px;
+    margin: 92px 48px 92px 48px;
 }
