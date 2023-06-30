@@ -2,7 +2,7 @@
     margin:0;
     padding:0;
     max-width: 690px;
-    height: 58px;
+    min-height: 58px;
     color: #FFF;
     font-size: 54px;
     font-family: Inter;
@@ -10,3 +10,14 @@
     line-height: 58px;
     margin-bottom: 40px;
 }
+
+@media screen and (max-width:500px) {
+    .intro__title {
+        font-family: Inter;
+        font-size: 32px;
+        font-weight: 900;
+        line-height: 35px;
+        text-align: left;
+        margin-bottom: 40px;    
+    }
+  }
