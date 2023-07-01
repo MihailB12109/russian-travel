@@ -23,6 +23,9 @@
         max-width: 720px;
         gap: 48px 28px;
     }
+    .place:not(:last-child) {
+        margin-bottom: 73px;
+    }
 }
 
 @media screen and (max-width:500px) {
