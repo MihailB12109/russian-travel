@@ -5,10 +5,6 @@
     display:grid;
     align-self: self-end;
 }
-@media screen and (max-width:1100px) {
-    .place__website {
-    }
-  }
   
   @media screen and (max-width:900px) {
     .place__website {
