@@ -3,11 +3,10 @@
     color: #FFF;
     width: max-content;
     font-size: 18px;
-    font-family: Inter;
     line-height: 22px;
     text-decoration-line: underline;
     margin-top:12px;
 }
 .place__link:hover{
-    opacity: 0.3;
+    opacity: 0.8;
 }
