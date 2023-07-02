@@ -4,6 +4,7 @@
   padding: 0;
   max-width: 460px;
   max-height: 460px;
+  object-fit: cover;
 }
 
 @media screen and (max-width:1100px) {
@@ -24,6 +25,5 @@
   .place__image {
     max-width: 320px;
     max-height: 320px;
-    object-fit: cover;
   }
 }

@@ -2,12 +2,10 @@
     margin: 0;
     z-index: 2;
     max-width: 560px;
-    max-height: 152px;
     margin-top: 245px;
     text-align: center;
     color: #FFF;
     font-size: 72px;
-    font-family: Inter;
     font-weight: 900;
     line-height: 76px;
 }
@@ -28,10 +26,7 @@
     .cover__title {
         margin-top: 33px;
         max-width: 288px;
-        max-height: 70px;
-        font-family: Inter;
         font-size: 32px;
         line-height: 35px;
-        text-align: center;
     }
 }

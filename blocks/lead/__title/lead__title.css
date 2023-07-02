@@ -2,25 +2,17 @@
     margin: 0;
     padding: 0;
     max-width: 720px;
-    max-height: 200px;
     color: #FFF;
     text-align: center;
     font-size: 96px;
-    font-family: Inter;
     font-weight: 900;
     line-height: 100px;
 }
 
-@media screen and (max-width:1100px) {
-    .lead__title {}
-}
-
-@media screen and (max-width:600px) {
+@media screen and (max-width:675px) {
     .lead__title {
         max-width: 288px;
-        max-height: 88px;
         font-size: 40px;
-        font-weight: 900;
         line-height: 44px;
         margin:0 auto;
     }
@@ -29,10 +21,6 @@
 @media screen and (max-width:500px) {
     .lead__title {
         max-width: 288px;
-        max-height: 88px;
-        font-size: 40px;
-        font-weight: 900;
-        line-height: 44px;
         margin:0 auto;
     }
 }
