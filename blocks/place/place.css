@@ -29,7 +29,7 @@
     }
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:640px) {
     .place {
         max-width: 320px;
         column-gap: 32px;
@@ -39,8 +39,7 @@
             "title"
             "web"
             "image"
-            "paragraph";
-        gap: 0;
+            "paragraph";      
     }
 
     .place:not(:last-child) {
